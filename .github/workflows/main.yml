@@ -1,9 +1,9 @@
 --- 
- kind: pipeline 
- name: aarch64 
-  
- platform: 
-   os: linux 
+kind: pipeline
+name: aarch64
+
+ platform:
+   os: linux 
    arch: arm64 
   
  clone: 
