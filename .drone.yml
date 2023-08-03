@@ -2,6 +2,10 @@
 kind: pipeline
 name: aarch64
 
+on:
+  push:
+    branches: [ "old/msm8916/5.14-rc1" ]
+
 platform:
   os: linux
   arch: arm64
